@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Electron-Test</title>
 </head>
+<script>
+    if (global === undefined) {
+      var global = window;
+    }
+</script>
 <body>
     <div id="contents"></div>
     <script src="dist/index.js"></script>
